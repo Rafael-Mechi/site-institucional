@@ -122,3 +122,122 @@ body{
 .version{
     font-size: 12px;
 }
+
+/*TELA DE LOGIN*/
+
+.card-card-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e5e5;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.card-card-login h2{
+    color: #d76f92;
+}
+
+.card-card-login .formulario{
+    display: flex;
+    color: #d76f92;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.formulario input{
+    display: flex;
+    width: 500px;
+    border-radius: 9px;
+    border: 2px solid #d76f92;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #32b2cd;
+    text-align: center;
+    font-weight: 400;
+    padding: 8px;
+}
+
+#boas-vindas{
+    margin: 0;
+    font-size: 30px;
+}
+
+.botao{
+    font-family: 'Barlow', sans-serif;
+    background-color: #ef135b;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+
+/*TELA DE CADASTRO*/
+
+#banner-cadastro{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card-card-cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e5e5;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+    align-items: center;
+    color: #d76f92;
+}
+
+.card-card-cadastro .formulario{
+    display: flex;
+    color: #d76f92;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.card-card-cadastro .formulario .campo{
+    margin-top: 15px;
+}
+
+#codigo_input{
+    margin: 0px;
+}
+
+#nome_input{
+    margin: 0px;
+}
+
+#email_input{
+    margin: 0px;
+}
+
+#senha_input{
+    margin: 0px;
+}
+
+#confirmacao_senha_input{
+    margin: 0px;
+}
